@@ -8,6 +8,8 @@
   --line: #e6e8ef;
 }
 
+html { scroll-behavior: smooth; }
+
 * {
   box-sizing: border-box;
 }
