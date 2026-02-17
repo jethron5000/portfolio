@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case Study | SwiftEntry</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      :root {
+        --bg: #faf9f7;
+        --surface: #f2f0ec;
+        --border: #e0ddd7;
+        --border-strong: #c8c4bc;
+        --ink: #1a1916;
+        --ink-2: #4a4844;
+        --ink-3: #8a8780;
+        --accent: #1a3a2a;
+        --accent-light: #e8f0eb;
+        --accent-mid: #4a7a5a;
+        --red-soft: #8a2a2a;
+        --red-bg: #faf0f0;
+        --amber: #7a5a1a;
+        --amber-bg: #fdf8ee;
+        --blue: #1a3a5a;
+        --blue-bg: #eef4fa;
+        --rule: #d4d0c8;
+  }
+  /* ── IMPACT STRIP ── */
+  .impact-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 32px;
+  }
+
+  .impact-cell {
+    background: var(--bg);
+    padding: 18px 20px;
+  }
+
+  .impact-label {
+    font-size: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--ink-3);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .impact-value {
+    font-family: 'Inter', sans-serif,
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--accent);
+    line-height: 1.2;
+  }
+
+  .impact-sub {
+    font-size: 12px;
+    color: var(--ink-3);
+    margin-top: 3px;
+  }
+    </style>
+  </head>
+  <body>
+    <main class="section">
+      <p class="eyebrow">Visitor Management</p>
+      <h1>Redesigning Accountability in a Secure Military Environment</h1>
+      <p>
+        We condensed checkout into one page, surfaced fees earlier, and improved inline validation so shoppers
+        could recover quickly from payment and form errors.
+      </p>
+      <!-- IMPACT STRIP — for skimmers -->
+  <div class="impact-strip">
+    <div class="impact-cell">
+      <div class="impact-label">Outcome</div>
+      <div class="impact-value">−36%</div>
+      <div class="impact-sub">Check-in/out completion time</div>
+    </div>
+    <div class="impact-cell">
+      <div class="impact-label">Model change</div>
+      <div class="impact-value">1 → 3</div>
+      <div class="impact-sub">Accountability owners in the system</div>
+    </div>
+    <div class="impact-cell">
+      <div class="impact-label">Removed</div>
+      <div class="impact-value">0</div>
+      <div class="impact-sub">Audit issues post-launch</div>
+    </div>
+  </div>
+      <p><strong>Outcome:</strong> 17% conversion increase and lower abandonment at payment.</p>
+      <a class="button button--outline" href="index.html#case-studies">← Back to Case Studies</a>
+    </main>
+  </body>
+</html>
